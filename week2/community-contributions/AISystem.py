@@ -9,7 +9,7 @@ def formatPrompt(role, content):
 class AI(Enum):
     OPEN_AI = "OPEN_AI"
     CLAUDE = "CLAUDE"
-    GEMINI = "GEMINI"
+    GEMINI = "GEMINI" 
     OLLAMA = "OLLAMA"
     
 class AISystem:
